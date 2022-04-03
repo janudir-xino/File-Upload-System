@@ -1,8 +1,12 @@
 {
-  "name": "s3-bucket-upload-system",
+  "name": "file-upload-system",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
+    "@aws-sdk/client-s3": "^3.56.0",
+    "@aws-sdk/lib-storage": "^3.56.0",
+    "@material-ui/core": "^4.12.3",
+    "@material-ui/icons": "^4.11.2",
     "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",
