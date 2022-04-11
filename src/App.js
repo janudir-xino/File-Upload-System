@@ -11,7 +11,7 @@ function App() {
     var file = file.target.files[0];
 
     const target = { Bucket: "s3-bucket-upload-system", Key: file.name, Body: file};
-    const creds = {accessKeyId: "AKIAV6VL4KSFXPG72SEK", secretAccessKey: "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"};
+    const creds = {accessKeyId: "", secretAccessKey: ""};
 
     try {
       const parallelUploads3 = new Upload({
