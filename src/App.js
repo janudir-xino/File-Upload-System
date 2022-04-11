@@ -81,4 +81,3 @@ function App() {
 }
 
 export default App;
-//{accessKeyId: "AKIAV6VL4KSF7L25VAED", secretKey: "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"};
